@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/item"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/itemRecommencer"
+        android:title="Nouvelle Partie"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/itemPoint"
+        android:title="Pointage"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/subitem0"
+                android:title="0" />
+
+            <item
+                android:id="@+id/subitem1"
+                android:title="1" />
+
+            <item
+                android:id="@+id/subitem2"
+                android:title="2" />
+
+            <item
+                android:id="@+id/subitem3"
+                android:title="3" />
+
+            <item
+                android:id="@+id/subitem4"
+                android:title="4" />
+
+            <item
+                android:id="@+id/subitem5"
+                android:title="5" />
+
+            <item
+                android:id="@+id/subitem6"
+                android:title="6" />
+
+            <item
+                android:id="@+id/subitem7"
+                android:title="7" />
+
+            <item
+                android:id="@+id/subitem8"
+                android:title="8" />
+
+            <item
+                android:id="@+id/subitem9"
+                android:title="9" />
+
+            <item
+                android:id="@+id/subitem10"
+                android:title="10" />
+
+            <item
+                android:id="@+id/subitem11"
+                android:title="11" />
+
+            <item
+                android:id="@+id/subitem12"
+                android:title="12" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/itemDifficulte"
+        android:title="Difficulté"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/subitemFacile"
+                android:title="Facile" />
+
+            <item
+                android:id="@+id/subitemDifficile"
+                android:title="Difficile" />
+
+        </menu>
+    </item>
+
+</menu>
