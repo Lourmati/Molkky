@@ -1,2 +1,2 @@
 # Molkky
-Basic Mölkky game coded with Android Studio (Java)
+Basic Mölkky (partial) game coded with Android Studio (Java)
